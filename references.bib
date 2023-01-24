@@ -1,0 +1,323 @@
+@online{cisco,
+    author = {Barnett, Thomas Jr. and Jain, Shruti and Andra, Usha and Khurana, Taru},
+    title = {Cisco Visual Networking Index (VNI) Complete Forecast Update},
+    url = {https://www.cisco.com/c/dam/m/en_us/network-intelligence/service-provider/digital-transformation/knowledge-network-webinars/pdfs/1213-business-services-ckn.pdf},
+    urldate = {2020-05-11}
+}
+
+@inproceedings{intro,
+author = {Sherry, Justine and Hasan, Shaddi and Scott, Colin and Krishnamurthy, Arvind and Ratnasamy, Sylvia and Sekar, Vyas},
+title = {Making Middleboxes Someone Else’s Problem: Network Processing as a Cloud Service},
+year = {2012},
+isbn = {9781450314190},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2342356.2342359},
+booktitle = {Proceedings of the ACM SIGCOMM 2012 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication},
+pages = {13–24},
+numpages = {12},
+keywords = {middlebox, outsourcing, cloud},
+location = {Helsinki, Finland},
+series = {SIGCOMM ’12}
+}
+  
+
+
+
+@INPROCEEDINGS{anderson_2016,  author={J. {Anderson} and H. {Hu} and U. {Agarwal} and C. {Lowery} and H. {Li} and A. {Apon}},  booktitle={2016 International Conference on Computing, Networking and Communications (ICNC)},  title={Performance considerations of network functions virtualization using containers},   year={2016},  volume={},  number={},  pages={1-7},  abstract={The network performance of virtual machines plays a critical role in Network Functions Virtualization (NFV), and several technologies have been developed to address hardware-level virtualization shortcomings. Recent advances in operating system level virtualization and deployment platforms such as Docker have made containers an ideal candidate for high performance application encapsulation and deployment. However, Docker and other solutions typically use lower-performing networking mechanisms. In this paper, we explore the feasibility of using technologies designed to accelerate virtual machine networking with containers, in addition to quantifying the network performance of container-based VNFs compared to the state-of-the-art virtual machine solutions. Our results show that containerized applications can provide lower latency and delay variation, and can take advantage of high performance networking technologies previously only used for hardware virtualization.},  keywords={computer networks;encapsulation;virtual machines;virtualisation;delay variation;virtual machine networking;encapsulation;Docker;hardware-level virtualization;NFV;container;network function virtualization;Containers;Virtualization;Hardware;Software;Switches;Virtual machining;Delays}, ISSN={},  month={Feb},
+url = {https://ieeexplore.ieee.org/document/7440668}}
+
+@INPROCEEDINGS{cloud_gaming_2015,  author={T. {Kämäräinen} and Y. {Shan} and M. {Siekkinen} and A. {Ylä-Jääski}},  booktitle={2015 International Workshop on Network and Systems Support for Games (NetGames)},  title={Virtual machines vs. containers in cloud gaming systems},   year={2015},  volume={},  number={},  pages={1-6},  abstract={In cloud gaming the game is rendered on a distant cloud server and the resulting video stream is sent back to the user who controls the game via a thin client. The high resource usage of cloud gaming servers is a challenge. Expensive hardware including GPUs have to be efficiently shared among multiple simultaneous users. The cloud servers use virtualization techniques to isolate users and share resources among dedicated servers. The traditional virtualization techniques can however inflict notable performance overhead limiting the user count for a single server. Operating-system-level virtualization instances known as containers are an emerging trend in cloud computing. Containers don't need to virtualize the entire operating system still providing most of the benefits of virtualization. In this paper, we evaluate the container-based alternative to traditional virtualization in cloud gaming systems through extensive experiments. We also discuss the differences needed in system implementation using the container approach and identify the existing limitations.},  keywords={cloud computing;computer games;file servers;operating systems (computers);virtual machines;virtualisation;virtual machines;cloud gaming systems;distant cloud server;video stream;GPUs;operating-system-level virtualization instances;cloud computing;container approach;Containers;Virtualization;Graphics processing units;Servers;Games;Hardware}, ISSN={2156-8146},  month={Dec}, url = {https://ieeexplore.ieee.org/document/7382987}}
+
+@INPROCEEDINGS{docker_hpc_2016,  author={M. T. {Chung} and N. {Quang-Hung} and M. {Nguyen} and N. {Thoai}},  booktitle={2016 IEEE Sixth International Conference on Communications and Electronics (ICCE)},  title={Using Docker in high performance computing applications},   year={2016},  volume={},  number={},  pages={52-57},  abstract={Virtualization technology plays a vital role in cloud computing. In particular, benefits of virtualization are widely employed in high performance computing (HPC) applications. Recently, virtual machines (VMs) and Docker containers known as two virtualization platforms need to be explored for developing applications efficiently. We target a model for deploying distributed applications on Docker containers, among using well-known benchmarks to evaluate performance between VMs and containers. Based on their architecture, we propose benchmark scenarios to analyze the computing performance and the ability of data access on HPC system. Remarkably, Docker container has more advantages than virtual machine in terms of data intensive application and computing ability, especially the overhead of Docker is trivial. However, Docker architecture has some drawbacks in resource management. Our experiment and evaluation show how to deploy efficiently high performance computing applications on Docker containers and VMs.},  keywords={cloud computing;data handling;parallel processing;virtual machines;virtualisation;Docker;high performance computing;virtualization technology;cloud computing;HPC;virtual machines;VM;data intensive application;resource management;Containers;Computer architecture;Virtual machining;Virtual machine monitors;Libraries;Virtualization;Cloud computing;Docker;HPC;performance evaluation;Graph500;HPL;cloud computing}, ISSN={},  month={July}, url={https://ieeexplore.ieee.org/document/7562612}}
+
+@article{genomic_pipes_2015,
+author = {Di Tommaso, Paolo and Palumbo, Emilio and Chatzou, Maria and Barja, Pablo and Heuer, Michael and Notredame, Cedric},
+year = {2015},
+month = {09},
+pages = {},
+title = {The impact of Docker containers on the performance of genomic pipelines},
+volume = {3},
+journal = {PeerJ},
+url = {https://peerj.com/articles/1273}}
+
+@INPROCEEDINGS{docker_hpc_2018,  author={G. {Rezende Alles} and A. {Carissimi} and L. {Mello Schnorr}},  booktitle={2018 Symposium on High Performance Computing Systems (WSCAD)},  title={Assessing the Computation and Communication Overhead of Linux Containers for HPC Applications},   year={2018},  volume={},  number={},  pages={116-123},  abstract={Virtualization technology provides features that are desirable for high-performance computing (HPC), such as enhanced reproducibility for scientific experiments and flexible execution environment customization. This paper explores the performance implications of applying Operating System (OS) containers in HPC applications. Docker and Singularity are compared to a native baseline with no virtualization, using synthetic workloads and an earthquake simulator called Ondes3D as benchmarks. Our evaluation using up to 256 cores indicate that (a) Singularity containers have a minor performance overhead, (b) Docker containers do suffer from increased network latency, and (c) performance gains are attainable with an optimized container on top of a regular OS.},  keywords={Linux;operating systems (computers);parallel processing;virtualisation;communication overhead;HPC applications;virtualization technology;high-performance computing;Operating System containers;earthquake simulator;Singularity containers;performance overhead;Docker containers;computation overhead;Linux containers;Ondes3D;Containers;Virtualization;Linux;Virtual machining;Kernel;virtualization;containers;hpc;docker;singularity;performance},  ISSN={},  month={Oct},
+url={https://ieeexplore.ieee.org/abstract/document/8748885}}
+
+@INPROCEEDINGS{deep_learning_2017,  author={P. {Xu} and S. {Shi} and X. {Chu}},  booktitle={2017 3rd International Conference on Big Data Computing and Communications (BIGCOM)},  title={Performance Evaluation of Deep Learning Tools in Docker Containers},   year={2017},  volume={},  number={},  pages={395-403},  abstract={With the success of deep learning techniques in a broad range of application domains, many deep learning software frameworks have been developed and are being updated frequently to adapt to new hardware features and software libraries, which bring a big challenge for end users and system administrators. To address this problem, container techniques are widely used to simplify the deployment and management of deep learning software. However, it remains unknown whether container techniques bring any performance penalty to deep learning applications. The purpose of this work is to systematically evaluate the impact of docker container on the performance of deep learning applications. We first benchmark the performance of system components (IO, CPU and GPU) in a docker container and the host system and compare the results to see if there's any difference. According to our results, we find that computational intensive jobs, either running on CPU or GPU, have small overhead indicating docker containers can be applied to deep learning programs. Then we evaluate the performance of some popular deep learning tools deployed in a docker container and the host system. It turns out that the docker container will not cause noticeable drawbacks while running those deep learning tools. So encapsulating deep learning tool in a container is a feasible solution.},  keywords={learning (artificial intelligence);operating systems (computers);software libraries;software tools;performance evaluation;deep learning techniques;deep learning software frameworks;container techniques;deep learning applications;host system;deep learning programs;docker containers;deep learning tools;Containers;Machine learning;Graphics processing units;Tools;Benchmark testing;Training}, ISSN={},  month={Aug},
+url={https://ieeexplore.ieee.org/document/8113094}}
+
+@INPROCEEDINGS{cloud_orchestration_2019,  author={Y. {Pan} and I. {Chen} and F. {Brasileiro} and G. {Jayaputera} and R. {Sinnott}},  booktitle={2019 IEEE International Conference on Big Knowledge (ICBK)},  title={A Performance Comparison of Cloud-Based Container Orchestration Tools},   year={2019},  volume={},  number={},  pages={191-198},  abstract={Compared to the traditional approach of using virtual machines as the basis for the development and deployment of applications running in Cloud-based infrastructures, container technology provides developers with a higher degree of portability and availability, allowing developers to build and deploy their applications in a much more efficient and flexible manner. A number of tools have been proposed to orchestrate complex applications comprising multiple containers requiring continuous monitoring and management actions to meet application-oriented and non-functional requirements. Different container orchestration tools provide different features that incur different overheads. As such, it is not always easy for developers to choose the orchestration tool that will best suit their needs. In this paper we compare the benefits and overheads incurred by the most popular open source container orchestration tools currently available, namely: Kubernetes and Docker in Swarm mode. We undertake a number of benchmarking exercises from well-known benchmarking tools to evaluate the performance overheads of container orchestration tools and identify their pros and cons more generally. The results show that the overall performance of Kubernetes is slightly worse than that of Docker in Swarm mode. However, Docker in Swarm mode is not as flexible or powerful as Kubernetes in more complex situations.},  keywords={cloud computing;data analysis;public domain software;virtual machines;Web services;virtual machines;container technology;portability;complex applications comprising multiple containers;continuous monitoring;management actions;nonfunctional requirements;orchestration tool;popular open source container orchestration tools;Kubernetes;Docker;swarm mode;well-known benchmarking tools;performance overheads;container orchestration tools;cloud-based infrastructures;cloud-based container orchestration;Kubernetes;Docker;Swarm;benchmarking;cloud computing}, ISSN={},  month={Nov},
+url={https://ieeexplore.ieee.org/document/8944745}}
+
+@mastersthesis{thesis_2019,
+   author = {Ginka, Anusha and Salapu, Venkata Satya Sameer},
+   institution = {Blekinge Institute of Technology, Department of Computer Science},
+   pages = {91},
+   school = {, Department of Computer Science},
+   title = {Optimization of Packet Throughput in Docker Containers},
+   keywords = {Micro-services, Networking, Packet Throughput, Performance},
+   abstract = {Container technology has gained popularity in recent years, mainly because it enables a fast and easy way to package, distribute and deploy applications and services. Latency and throughput have a high impact on user satisfaction in many real-time, critical and large-scale online services. Although the use of microservices architecture in cloud-native applications has enabled advantages in terms of application resilience, scalability, fast software delivery and the use of minimal resources, the packet processing rates are not correspondingly higher. This is mainly due to the overhead imposed by the design and architecture of the network stack. Packet processing rates can be improved by making changes to the network stack and without necessarily adding more powerful hardware. In this research, a study of various high-speed packet processing frameworks is presented and a software high-speed packet I/O solution i.e., as hardware agnostic as possible to improve the packet throughput in container technology is identified. The proposed solution is identified based on if the solution involves making changes to the underlying hardware or not. The proposed solution is then evaluated in terms of packet throughput for different container networking modes. A comparison of the proposed solution with a simple UDP client-server application is also presented for different container networking modes. From the results obtained, it is concluded that packet mmap client-server application has higher performance when compared with simple UDP client-server application. },
+   year = {2019}, url={http://www.diva-portal.org/smash/record.jsf?pid=diva2:1303092}
+}
+
+@inproceedings{hpc_nfv_2017,
+author = {Hong, DeokGi and Shin, Jaemin and Woo, Shinae and Moon, Sue},
+title = {Considerations on Deploying High-Performance Container-Based NFV},
+year = {2017},
+isbn = {9781450354233},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3155921.3155925},
+booktitle = {Proceedings of the 2nd Workshop on Cloud-Assisted Networking},
+pages = {1–6},
+numpages = {6},
+keywords = {NFV, container-based virtualization},
+location = {Incheon, Republic of Korea},
+series = {CAN ’17}
+}
+
+@INPROCEEDINGS{vm_vs_container_2015,  author={W. {Felter} and A. {Ferreira} and R. {Rajamony} and J. {Rubio}},  booktitle={2015 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},  title={An updated performance comparison of virtual machines and Linux containers},   year={2015},  volume={},  number={},  pages={171-172},  abstract={Cloud computing makes extensive use of virtual machines because they permit workloads to be isolated from one another and for the resource usage to be somewhat controlled. In this paper, we explore the performance of traditional virtual machine (VM) deployments, and contrast them with the use of Linux containers. We use KVM as a representative hypervisor and Docker as a container manager. Our results show that containers result in equal or better performance than VMs in almost all cases. Both VMs and containers require tuning to support I/Ointensive applications. We also discuss the implications of our performance results for future cloud architectures.},  keywords={cloud computing;Linux;virtual machines;virtual machines;Linux containers;cloud computing;KVM;Docker;representative hypervisor;container manager;cloud architectures;Containers;Servers;Linux;Virtual machining;Random access memory;Hardware;Throughput}, ISSN={},  month={March},
+url={https://ieeexplore.ieee.org/document/7095802}}
+
+@article{big_data_2016,
+author = {Varma, P. and Chakravarthy, K. and Vatsavayi, Valli Kumari and Somalaraju, Viswanadha raju},
+year = {2016},
+month = {01},
+pages = {},
+title = {Analysis of a Network IO Bottleneck in Big Data Environments Based on Docker Containers},
+volume = {3},
+journal = {Big Data Research},
+url = {https://doi.org/10.1016/j.bdr.2015.12.002}
+}
+
+@misc{thesis_2017,
+   author = {Rang, Tobias},
+   institution = {Karlstad University},
+   pages = {39},
+   school = {Karlstad University, Karlstad University},
+   title = {NFV performance benchmarking with OVS and Linux containers},
+   keywords = {nfv, containers, dpdk, userspace networking, ovs, open vswitch, benchmark, networking, cloudlab},
+   abstract = {One recent innovation in the networking industry, is the concept of Network FunctionVirtualization (NFV). NFV is based on a networking paradigm in which network functions,which have typically been implemented in the form of dedicated hardware appliances in thepast, are implemented in software and deployed on commodity hardware using modernvirtualization techniques. While the most common approach is to place each virtual networkfunction in a virtual machine - using hardware-level virtualization – the growing influenceand popularity of Docker and other container-based solutions has naturally led to the idea ofcontainerized deployments. This is a promising concept, as containers (or operating systemlevel virtualization) can offer a flexible and lightweight alternative to hardware-levelvirtualization, with the ability to use the resources of the host directly. The main problem withthis concept, is the fact that the default behavior of Docker and similar technologies is to relyon the networking stack of the host, which typically isn’t performant enough to handle theperformance requirements associated with NFV. In this dissertation, an attempt is made toevaluate the feasibility of using userspace networking to accelerate the network performanceof Docker containers, bypassing the standard Linux networking stack by moving the packetprocessing into userspace. },
+   year = {2017}, url={http://kau.diva-portal.org/smash/record.jsf?pid=diva2:1111361}
+}
+
+@INPROCEEDINGS{dpdk_insight_2014,  author={I. {Cerrato} and M. {Annarumma} and F. {Risso}},  booktitle={2014 Third European Workshop on Software Defined Networks},  title={Supporting Fine-Grained Network Functions through Intel DPDK},   year={2014},  volume={},  number={},  pages={1-6},  abstract={Network Functions Virtualization (NFV) aims to transform network functions into software images, executed on standard, high-volume hardware. This paper focuses on the case in which a massive number of (tiny) network function instances are executed simultaneously on the same server and presents our experience in the design of the components that move the traffic across those functions, based on the primitives offered by the Intel DPDK framework. This paper proposes different possible architectures, it characterizes the resulting implementations, and it evaluates their applicability under different constraints.},  keywords={software defined networking;virtualisation;fine-grained network functions;Intel DPDK;data plane development kit;network function virtualization;NFV;software images;Noise measurement;Throughput;Servers;Virtualization;Hardware;Computer architecture;Switches;DPDK;NFV;fine-grained network functions}, ISSN={2379-0369},  month={Sep.},
+url={https://ieeexplore.ieee.org/document/6984043}}
+
+@ARTICLE{nvf_perf_2017,  author={R. {Kawashima} and H. {Nakayama} and T. {Hayashi} and H. {Matsuo}},  journal={IEEE Transactions on Network and Service Management},  title={Evaluation of Forwarding Efficiency in NFV-Nodes Toward Predictable Service Chain Performance},   year={2017},  volume={14},  number={4},  pages={920-933},  abstract={The concept of network functions virtualization (NFV) has been embodied in commercial networks over the past years. Software-based virtual network functions have forwarding performance concerns in general, and various acceleration technologies have been developed so far, such as DPDK and vhost-user. Existence of several alternatives requires network engineers or operators to select appropriate technologies; however, no pragmatic criterion exists for constructing high-performance NFV-nodes. From their points of view, a lack of common benchmark and understanding of performance characteristics makes it difficult to predict hop-by-hop performance in a service chain, which results in prevention of NFV deployment in mission-critical networks. In this paper, we clarify performance characteristics of packet forwarding in NFV nodes focusing on three types of acceleration technologies; packet I/O architecture, virtual network I/O, and forwarding engine in a practical stage. We examined three packet I/O architectures (NAPI, netmap, and DPDK), three virtual I/O mechanisms (vhost-net, vhost-user, and SR-IOV), and four practical forwarding programs (Open vSwitch, OVS-DPDK, xDPd-DPDK, and Lagopus) with three referential programs (Linux Bridge, VALE, and L2FWD-DPDK). The experiment was conducted on a 40 GbE environment and we examined two device-under-test machines having different CPU performance. We argue performance characteristics of each technology and give quantitative analyses of the result. The key findings are: 1) CPU core speed has impact on both throughput and latency/jitter; 2) DPDK can allow performance prediction; 3) vhost-user is appropriate for real environment; and 4) OVS-DPDK provides a good combination of performance and functionality.},  keywords={computer centres;computer networks;Linux;virtualisation;predictable service chain performance;network functions virtualization;commercial networks;virtual network functions;forwarding performance concerns;acceleration technologies;vhost-user;network engineers;high-performance NFV-nodes;hop-by-hop performance;mission-critical networks;packet forwarding;NFV nodes;forwarding engine;vhost-net;practical forwarding programs;OVS-DPDK;xDPd-DPDK;L2FWD-DPDK;different CPU performance;performance prediction;forwarding efficiency;CPU;CPU;Software defined networking;Acceleration;Performance evaluation;Benchmark testing;Network function virtualization;Throughput;DPDK;network functions virtualization;performance evaluation;service chaining;software defined networking}, ISSN={1932-4537},  month={Dec},
+url={https://ieeexplore.ieee.org/document/7997907}}
+
+@INPROCEEDINGS{barbette_2015,  author={T. {Barbette} and C. {Soldani} and L. {Mathy}},  booktitle={2015 ACM/IEEE Symposium on Architectures for Networking and Communications Systems (ANCS)},  title={Fast userspace packet processing},   year={2015},  volume={},  number={},  pages={5-16},  abstract={In recent years, we have witnessed the emergence of high speed packet I/O frameworks, bringing unprecedented network performance to userspace. Using the Click modular router, we rst review and quantitatively compare several such packet I/O frameworks, showing their superiority to kernel-based forwarding. We then reconsider the issue of software packet processing, in the context of modern commodity hardware with hardware multi-queues, multi-core processors and non-uniform memory access. Through a combination of existing techniques and improvements of our own, we derive modern general principles for the design of software packet processors. Our implementation of a fast packet processor framework, integrating a faster Click with both Netmap and DPDK, ex-hibits up-to about 2.3x speed-up compared to other software implementations, when used as an IP router.},  keywords={input-output programs;multiprocessing programs;software engineering;userspace packet processing;high speed packet I/O frameworks;Click modular router;kernel-based forwarding;software packet processing;hardware multi-queues;multicore processors;Kernel;Linux;Throughput;Hardware;Instruction sets;Sockets}, ISSN={},  month={May},
+url={https://ieeexplore.ieee.org/document/7110116}}
+
+@INPROCEEDINGS{virt_nfv_2015,  author={R. {Bonafiglia} and I. {Cerrato} and F. {Ciaccia} and M. {Nemirovsky} and F. {Risso}},  booktitle={2015 Fourth European Workshop on Software Defined Networks},  title={Assessing the Performance of Virtualization Technologies for NFV: A Preliminary Benchmarking},   year={2015},  volume={},  number={},  pages={67-72},  abstract={The NFV paradigm transforms those applications executed for decades in dedicated appliances, into software images to be consolidated in standard server. Although NFV is implemented through cloud computing technologies (e.g., Virtual machines, virtual switches), the network traffic that such components have to handle in NFV is different than the traffic they process when used in a cloud computing scenario. Then, this paper provides a (preliminary) benchmarking of the widespread virtualization technologies when used in NFV, which means when they are exploited to run the so called virtual network functions and to chain them in order to create complex services.},  keywords={benchmark testing;cloud computing;large-scale systems;software performance evaluation;virtualisation;virtualization technologies;NFV;benchmarking;software images;standard server;cloud computing;virtual network functions;complex services;Containers;Throughput;Servers;Virtualization;Kernel;Linux;Bridges;NFV;service function chain;performance evaluation;KVM;Docker;Openv Switch}, ISSN={2379-0369},  month={Sep.},
+url={https://ieeexplore.ieee.org/document/7313618}}
+
+@online{what_is_container,
+    author = {{Docker, Inc.}},
+    title = {What is a Container?},
+    url = {https://www.docker.com/resources/what-container},
+    urldate = {2020-04-30}
+}
+
+@online{container_usage,
+    author = {{Docker, Inc.}},
+    title = {Docker overview; What can I use Docker for?},
+    url = {https://docs.docker.com/get-started/overview/#what-can-i-use-docker-for},
+    urldate = {2020-04-30}
+}
+
+@online{namespaces,
+    author = {Michael Kerrisk},
+    title = {Linux Programmer's Manual; namespaces},
+    url = {http://man7.org/linux/man-pages/man7/namespaces.7.html},
+    urldate = {2020-04-30}
+}
+
+@online{cgroups,
+    author = {Michael Kerrisk},
+    title = {Linux Programmer's Manual; cgroups},
+    url = {http://man7.org/linux/man-pages/man7/cgroups.7.html},
+    urldate = {2020-04-30}
+}
+
+@online{docker_networking,
+    author = {Church, Mark and Ruiz, Marlon and Seifert, Andrew and Marshall, Trapier},
+    title = {Docker Swarm Reference Architecture: Exploring Scalable, Portable Docker Container Networks},
+    url = {https://success.docker.com/article/networking},
+    urldate = {2020-04-30}
+}
+
+@online{macvlan,
+    author = {{Docker, Inc.}},
+    title = {Use macvlan networks},
+    url = {https://docs.docker.com/network/macvlan},
+    urldate = {2020-04-30}
+}
+
+@online{host,
+    author = {{Docker, Inc.}},
+    title = {Use host networking},
+    url = {https://docs.docker.com/network/host},
+    urldate = {2020-05-01}
+}
+
+@online{bind_mounts,
+    author = {{Docker, Inc.}},
+    title = {Use bind mounts},
+    url = {https://docs.docker.com/storage/bind-mounts},
+    urldate = {2020-05-01}
+}
+
+@online{codilime,
+    author = {Dariusz Sosnowski},
+    title = {How can DPDK access devices from user space?},
+    url = {https://codilime.com/how-can-dpdk-access-devices-from-user-space/},
+    urldate = {2020-05-01}
+}
+
+@article{packet_receiving_2007,
+author = {Wu, Wenji and Crawford, Matt and Bowden, Mark},
+year = {2007},
+month = {03},
+pages = {1044-1057},
+title = {The performance analysis of linux networking – Packet receiving},
+volume = {30},
+journal = {Computer Communications},
+url = {https://www.sciencedirect.com/science/article/abs/pii/S0140366406004221}
+}
+
+@online{hugepages,
+    author = {{Linux Kernel Organization, Inc.}},
+    title = {Hugetlbpage documentation},
+    url = {https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt},
+    urldate = {2020-05-01}
+}
+
+@online{nvf_redhat,
+    author = {{Red Hat, Inc.}},
+    title = {Virtualization - What is NFV?},
+    url = {https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt},
+    urldate = {2020-05-01}
+}
+
+@online{mmap,
+    author = {Michael Kerrisk},
+    title = {Linux Programmer's Manual; mmap},
+    url = {http://man7.org/linux/man-pages/man2/mmap.2.html},
+    urldate = {2020-05-01}
+}
+
+@inproceedings{netmap,
+    author = {Rizzo, Luigi},
+    title = {Netmap: A Novel Framework for Fast Packet I/O},
+    year = {2012},
+    publisher = {USENIX Association},
+    address = {USA},
+    booktitle = {Proceedings of the 2012 USENIX Conference on Annual Technical Conference},
+    pages = {9},
+    numpages = {1},
+    location = {Boston, MA},
+    series = {USENIX ATC’12},
+    url = {https://dl.acm.org/doi/10.5555/2342821.2342830}
+}
+
+@online{dpdk,
+    author = {{DPDK Project}},
+    title = {Intel DPDK. Data Plane Development Kit Project Page},
+    url = {http://www.dpdk.org},
+    urldata = {2020-05-01}
+}
+
+@online{pmd,
+    author = {{DPDK Project}},
+    title = {DPDK Programmers Guide - Poll Mode Driver},
+    url = {http://doc.dpdk.org/guides/prog_guide/poll_mode_drv.html},
+    urldata = {2020-05-01}
+}
+
+@online{eal,
+    author = {{DPDK Project}},
+    title = {DPDK Programmers Guide - Environment Abstraction Layer},
+    url = {http://doc.dpdk.org/guides/prog_guide/env_abstraction_layer.html},
+    urldata = {2020-05-01}
+}
+
+@online{multi_process,
+    author = {{DPDK Project}},
+    title = {DPDK Programmers Guide - Multi-process support},
+    url = {http://doc.dpdk.org/guides/prog_guide/multi_proc_support.html},
+    urldata = {2020-05-01}
+}
+
+@article{docker_stats,
+author = {Sysdig},
+title = {2019 Container Usage Report},
+year = {2019},
+issue_date = {2019},
+publisher = {Sysdig},
+url = {https://sysdig.com/resources/whitepapers/container-usage-report}
+}
+
+@article{switch_time,
+    author = {Eli Bendersky},
+    year = {2018},
+    title = {Measuring context switching and memory overheads for Linux threads},
+    url = {https://eli.thegreenplace.net/2018/measuring-context-switching-and-memory-overheads-for-linux-threads/},
+    urldata = {2020-07-09}
+}
+
+@article{context_switch_cache,
+author = {Liu, Fang and Solihin, Yan},
+title = {Understanding the Behavior and Implications of Context Switch Misses},
+year = {2011},
+issue_date = {December 2010},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {4},
+issn = {1544-3566},
+url = {https://doi-org.focus.lib.kth.se/10.1145/1880043.1880048},
+journal = {ACM Trans. Archit. Code Optim.},
+month = dec,
+articleno = {21},
+numpages = {28},
+keywords = {Context switch misses, stack distance profiling, analytical model, prefetching}
+}
+
+@article{energy_consumption,
+author = {Gelenbe, Erol and Caseau, Yves},
+title = {The Impact of Information Technology on Energy Consumption and Carbon Emissions},
+year = {2015},
+issue_date = {June 2015},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2015},
+number = {June},
+url = {https://doi-org.focus.lib.kth.se/10.1145/2755977},
+journal = {Ubiquity},
+month = jun,
+articleno = {1},
+numpages = {15}
+}
+
+@ARTICLE{nfv_placement1,  author={I. {Jang} and D. {Suh} and S. {Pack} and G. {Dán}},  journal={IEEE Journal on Selected Areas in Communications},   title={Joint Optimization of Service Function Placement and Flow Distribution for Service Function Chaining},   year={2017},  volume={35},  number={11},  pages={2532-2541},  abstract={In this paper, we consider the problem of optimal dynamic service function (SF) placement and flow routing in a SF chaining (SFC) enabled network. We formulate a multi-objective optimization problem to maximize the acceptable flow rate and to minimize the energy cost for multiple service chains. We transform the multi-objective optimization problem into a single-objective mixed integer linear programming (MILP) problem, and prove that the problem is NP-hard. We propose a polynomial time algorithm based on linear relaxation and rounding to approximate the optimal solution of the MILP. Extensive simulations are conducted to evaluate the effects of the energy budget, the network topology, and the amount of server resources on the acceptable flow rate. The results demonstrate that the proposed algorithm can achieve near-optimal performance and can significantly increase the acceptable flow rate and the service capacity compared to other algorithms under an energy cost budget.},  keywords={computational complexity;integer programming;linear programming;telecommunication network routing;joint optimization;service function placement;flow distribution;flow routing;SF chaining;multiobjective optimization problem;acceptable flow rate;multiple service chains;single-objective mixed integer linear programming problem;near-optimal performance;service capacity;Optimization;Routing;Network function virtualization;Resource management;Network topology;Simulation;Transforms;Service function chaining;acceptable flow rate;energy cost;flow-compensatory rounding based placement},  ISSN={1558-0008}, url={https://ieeexplore.ieee.org/document/8082507},  month={Nov},}
+
+@article{nfv_placement2,
+title = "Optimal virtual network function placement in multi-cloud service function chaining architecture",
+journal = "Computer Communications",
+volume = "102",
+pages = "1 - 16",
+year = "2017",
+issn = "0140-3664",
+url = "http://www.sciencedirect.com/science/article/pii/S0140366417301901",
+author = "Deval Bhamare and Mohammed Samaka and Aiman Erbad and Raj Jain and Lav Gupta and H. Anthony Chan",
+keywords = "Affinity, Greedy, Multi-cloud, Network function virtualization, Optimal placement, Service function chaining",
+abstract = "Service Function Chaining (SFC) is the problem of deploying various network service instances over geographically distributed data centers and providing inter-connectivity among them. The goal is to enable the network traffic to flow smoothly through the underlying network, resulting in an optimal quality of experience to the end-users. Proper chaining of network functions leads to optimal utilization of distributed resources. This has been a de-facto model in the telecom industry with network functions deployed over underlying hardware. Though this model has served the telecom industry well so far, it has been adapted mostly to suit the static behavior of network services and service demands due to the deployment of the services directly over physical resources. This results in network ossification with larger delays to the end-users, especially with the data-centric model in which the computational resources are moving closer to end users. A novel networking paradigm, Network Function Virtualization (NFV), meets the user demands dynamically and reduces operational expenses (OpEx) and capital expenditures (CapEx), by implementing network functions in the software layer known as virtual network functions (VNFs). VNFs are then interconnected to form a complete end-to-end service, also known as service function chains (SFCs). In this work, we study the problem of deploying service function chains over network function virtualized architecture. Specifically, we study virtual network function placement problem for the optimal SFC formation across geographically distributed clouds. We set up the problem of minimizing inter-cloud traffic and response time in a multi-cloud scenario as an ILP optimization problem, along with important constraints such as total deployment costs and service level agreements (SLAs). We consider link delays and computational delays in our model. The link queues are modeled as M/D/1 (single server/Poisson arrival/deterministic service times) and server queues as M/M/1 (single server/Poisson arrival/exponential service times) based on the statistical analysis. In addition, we present a novel affinity-based approach (ABA) to solve the problem for larger networks. We provide a performance comparison between the proposed heuristic and simple greedy approach (SGA) used in the state-of-the-art systems. Greedy approach has already been widely studied in the literature for the VM placement problem. Especially we compare our proposed heuristic with a greedy approach using first-fit decreasing (FFD) method. By observing the results, we conclude that the affinity-based approach for placing the service functions in the network produces better results compared against the simple greedy (FFD) approach in terms of both, total delays and total resource cost. We observe that with a little compromise (gap of less than 10% of the optimal) in the solution quality (total delays and cost), affinity-based heuristic can solve the larger problem more quickly than ILP."
+}
+
+@INPROCEEDINGS{nfv_placement3,  author={T. {Kim} and S. {Kim} and K. {Lee} and S. {Park}},  booktitle={2015 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing},   title={A QoS Assured Network Service Chaining Algorithm in Network Function Virtualization Architecture},   year={2015},  volume={},  number={},  pages={1221-1224},  abstract={In the Network Function Virtualization (NFV) architecture, Network Service Chaining (NSC) is consisted in a certain order of network elements so that it can provide flexible network services to users. Due to the complexity of network infrastructure, creating a service chain requires high operation cost especially in carrier-grade network service providers and supporting stringent QoS requirements is also a challenge. Although several vendors provide various solutions for the NSC, there is only few information and the detailed algorithm or implementation logic is hidden. This paper presents an NSC algorithm in NFV that assures QoS from the perspective of service providers. In order to formulate NSC path selection problem, we apply the NP complete genetic algorithm. The evaluation results show that the proposed algorithm minimizes the operation cost of service providers by approximately 10.6% while the requested QoS targets is not violated.},  keywords={cloud computing;computational complexity;genetic algorithms;quality of service;virtualisation;QoS assured network service chaining algorithm;network function virtualization architecture;NFV architecture;flexible network services;carrier-grade network service providers;NSC path selection problem;NP complete genetic algorithm;Cloud computing;Grid computing;network function virtualization;network service chaining;virtual network function;genetic algorithm;a QoS assured algorithm},   ISSN={}, url={https://ieeexplore.ieee.org/document/7152626},  month={May},}
+
+@ARTICLE{nfv_placement4,  author={W. {Ma} and J. {Beltran} and Z. {Pan} and D. {Pan} and N. {Pissinou}},  journal={IEEE Transactions on Network and Service Management},   title={SDN-Based Traffic Aware Placement of NFV Middleboxes},   year={2017},  volume={14},  number={3},  pages={528-542},  abstract={Network function virtualization (NFV) enables flexible deployment of middleboxes as virtual machines running on general hardware. Since different middleboxes may change the volume of processed traffic in different ways, improper deployment of NFV middleboxes will result in hot spots and congestion. In this paper, we study the traffic changing effects of middleboxes, and propose software-defined networking based middlebox placement solutions to achieve optimal load balancing. We formulate the traffic aware middlebox placement (TAMP) problem as a graph optimization problem with the objective to minimize the maximum link load ratio. First, we solve the TAMP problem when the flow paths are predetermined, such as the case in a tree. For a single flow, we propose the least-first-greatest-last (LFGL) rule and prove its optimality; for multiple flows, we first show the NP-hardness of the problem, and then propose an efficient heuristic. Next, for the general TAMP problem without predetermined flow paths, we prove that it is NP-hard even for a single flow, and propose the LFGL based MinMax routing algorithm by integrating LFGL with MinMax routing. We use a joint emulation and simulation approach to evaluate the proposed solutions, and present extensive experimental and simulation results to demonstrate the effectiveness of our design.},  keywords={computational complexity;graph theory;minimax techniques;software defined networking;virtual machines;SDN-based traffic aware placement;NFV Middleboxes;network function virtualization;virtual machines;software-defined networking;traffic aware middlebox placement;TAMP problem;graph optimization problem;least-first-greatest-last rule;LFGL rule;NP-hard problem;LFGL based MinMax routing algorithm;Middleboxes;Software;Hardware;Servers;Computer architecture;Optimization;Virtualization;Network function virtualization;software-defined networking;middlebox},  ISSN={1932-4537}, 
+url={https://ieeexplore.ieee.org/document/7984853}, month={Sep.},}
